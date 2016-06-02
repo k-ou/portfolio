@@ -66,5 +66,8 @@ var pieces = [
 ];
 
 var context = document.querySelector('#content');
-var scene = new Scene({pieces: pieces, context: context});
+var scene = new Scene({
+    pieces: pieces,
+    context: context
+});
 scene.render();
