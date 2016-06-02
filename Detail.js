@@ -9,6 +9,7 @@ class Detail {
         detail.style.position = 'absolute';
         detail.style.backgroundColor = 'black';
         detail.style.border = '1px solid red';
+        detail.style.width = '100%';
 
         const p = document.createElement('p');
         p.innerHTML = piece.body;
