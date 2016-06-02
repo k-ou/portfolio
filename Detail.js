@@ -9,20 +9,17 @@ class Detail {
         detail.style.position = 'absolute';
         detail.style.backgroundColor = 'black';
         detail.style.border = '1px solid red';
-        const h1 = document.createElement('h1');
-        h1.innerHTML = piece.title;
-        h1.style.color = 'white';
-        detail.appendChild(h1);
 
         const p = document.createElement('p');
         p.innerHTML = piece.body;
         p.style.color = 'white';
+        p.style.float = 'right';
         detail.appendChild(p);
 
         const img = document.createElement('img');
         img.setAttribute('src', piece.photoURL);
         img.style.maxWidth = '100%';
-        img.style.height = 'auto';
+        img.style.maxHeight = '100%';
         detail.appendChild(img);
         return detail;
     }

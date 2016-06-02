@@ -15,6 +15,7 @@ class Scene {
     showSelectedPiece(piece) {
         const detail = Detail.render(piece);
         detail.onclick = this.hideSelectedPiece;
+        detail.style.height = window.innerHeight - this.context.offsetTop + 'px';
         this.context.appendChild(detail);
     }
 
