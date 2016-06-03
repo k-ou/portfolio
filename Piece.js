@@ -1,10 +1,10 @@
 class Piece {
     constructor({
-        title, body, photoURL
+        title, description, photoURL
     }) {
         // TODO: validate that arguments aren't undefined
         this.title = title;
-        this.body = body;
+        this.description = description;
         this.photoURL = photoURL;
     }
 
