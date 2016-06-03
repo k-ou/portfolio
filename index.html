@@ -12,8 +12,12 @@
         body {
             margin: 0;
         }
-        
-        div.post img {
+
+        ul {
+            list-style-type: none;
+        }
+
+        li.post img {
             width: var(--post-width);
             border: 1px solid grey;
             padding: 5px;
@@ -28,11 +32,11 @@
         }
         
         .post {
-            float: left;
-            /*            border: 1px dashed black;*/
+            /*float: left;*/
             padding: 1%;
             text-align: center;
             margin: auto;
+            display: inline-block;
         }
         
         #header {
@@ -59,10 +63,12 @@
             border: 1px solid red;
             margin: 0 auto;
             display: table;
+            padding: 0px;
+            text-align: center;
         }
 
     </style>
-    <script src="Posts.js"></script>
+    <script src="Piece.js"></script>
     <script src="Detail.js"></script>
     <script src="Scene.js"></script>
 </head>
@@ -73,7 +79,7 @@
     </div>
     <div id="headerplace"></div>
     <div id="background">
-        <div id="content"></div>
+        <ul id="content"></ul>
     </div>
     <script src="script.js"></script>
 </body>
