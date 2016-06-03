@@ -3,65 +3,69 @@
  */
 
 var pieces = [
+//    new Piece({//        title: 'ink',
+//        body: 'ink description',
+//        photoURL: 'photos/ink.jpg'
+//    }),
     new Piece({
-        title: 'ink',
-        body: 'ink description',
-        photoURL: 'photos/ink.jpg'
+        title: 'Concept',
+        body: 'concept description',
+        photoURL: 'photos/Concept_CarbCat_01.jpg'
     }),
     new Piece({
-        title: 'illustrator',
-        body: 'illustrator description',
-        photoURL: 'photos/illustrator.jpg'
-    }),
-    new Piece({
-        title: 'heros',
-        body: 'heros description',
-        photoURL: 'photos/heros.jpg'
-    }),
-    new Piece({
-        title: 'charcoal',
+        title: 'Charcoal',
         body: 'charcoal description',
-        photoURL: 'photos/charcoal.jpg'
+        photoURL: 'photos/Charcoal_Still_01.jpg'
     }),
     new Piece({
-        title: 'carbcat',
-        body: 'carbcat description',
-        photoURL: 'photos/carbcat.jpg'
+        title: 'Charcoal',
+        body: 'charcoal description',
+        photoURL: 'photos/Charcoal_Still_02.jpg'
     }),
     new Piece({
-        title: 'carbcat',
-        body: 'carbcat description',
-        photoURL: 'photos/carbcat.jpg'
+        title: 'Contour',
+        body: 'contour description',
+        photoURL: 'photos/Contour_Half_Blind.jpg'
     }),
     new Piece({
-        title: 'carbcat',
-        body: 'carbcat description',
-        photoURL: 'photos/carbcat.jpg'
+        title: 'Contour',
+        body: 'contour description',
+        photoURL: 'photos/Contour_Portrait_01.jpg'
     }),
     new Piece({
-        title: 'carbcat',
-        body: 'carbcat description',
-        photoURL: 'photos/carbcat.jpg'
+        title: 'Contour',
+        body: 'contour description',
+        photoURL: 'photos/Contour_Bike.jpg'
+    }),
+        new Piece({
+        title: 'Concept',
+        body: 'concept description',
+        photoURL: 'photos/Concept_Heroes_01.jpg'
     }),
     new Piece({
-        title: 'carbcat',
-        body: 'carbcat description',
-        photoURL: 'photos/carbcat.jpg'
+        title: 'Ink',
+        body: 'ink description',
+        photoURL: 'photos/Ink_Portrait_01.jpg'
     }),
     new Piece({
-        title: 'carbcat',
-        body: 'carbcat description',
-        photoURL: 'photos/carbcat.jpg'
+        title: 'Ink',
+        body: 'ink description',
+        photoURL: 'photos/Ink_Portrait_02.jpg'
     }),
     new Piece({
-        title: 'carbcat',
-        body: 'carbcat description',
-        photoURL: 'photos/carbcat.jpg'
+        title: 'Ink',
+        body: 'ink description',
+        photoURL: 'photos/Ink_Still_01.jpg'
     }),
     new Piece({
-        title: 'carbcat',
-        body: 'carbcat description',
-        photoURL: 'photos/carbcat.jpg'
+        title: 'Ink',
+        body: 'ink description',
+        photoURL: 'photos/Ink_Still_02.jpg'
+    }),
+        new Piece({
+        title: 'Ink',
+        body: 'ink description',
+        photoURL: 'photos/Ink_Still_03.jpg'
     }),
 ];
 

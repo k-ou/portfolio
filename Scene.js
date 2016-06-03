@@ -30,9 +30,9 @@ class Scene {
 
     render() {
         this.pieces.forEach(piece => {
-            const pieceDiv = piece.render();
-            pieceDiv.onclick = this.showSelectedPiece.bind(this, piece);
-            this.context.appendChild(pieceDiv);
+            const element = piece.render();
+            element.onclick = this.showSelectedPiece.bind(this, piece);
+            this.context.appendChild(element);
         });
     }
 }

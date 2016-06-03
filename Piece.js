@@ -10,12 +10,11 @@ class Piece {
 
     render() {
         const template = `
-            <div class="post">
-                <h1>${this.title}</h1>
-                <img src=${this.photoURL} />
-            </div>
+            <h1>${this.title}</h1>
+            <img src=${this.photoURL} />
         `;
-        const piece = document.createElement('div');
+        const piece = document.createElement('li');
+        piece.className = 'post';
         piece.innerHTML = template;
         var img = piece.getElementsByTagName('img')[0];
         if (img.height > img.width) {
