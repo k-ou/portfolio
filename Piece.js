@@ -10,7 +10,7 @@ class Piece {
 
     render() {
         const template = `
-            <h1>${this.title}</h1>
+            <h4>${this.title}</h4>
             <img src=${this.photoURL} />
         `;
         const piece = document.createElement('li');
