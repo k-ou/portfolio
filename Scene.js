@@ -8,30 +8,25 @@ class Scene {
     }) {
         this.pieces = pieces;
         this.context = context;
-
-        this.hideSelectedPiece = this.hideSelectedPiece.bind(this);
     }
 
-    showSelectedPiece(piece) {
+    toggleSelectedPiece(piece) {
         const selectedPiece = document.getElementById('detail');
+        const background = document.getElementById('background');
         if (selectedPiece) {
-            this.context.removeChild(selectedPiece);
+            background.removeChild(selectedPiece);
         } else {
             const detail = Detail.render(piece);
-            detail.onclick = this.hideSelectedPiece;
+            detail.onclick = this.toggleSelectedPiece;
             detail.style.height = window.innerHeight - this.context.offsetTop + 'px';
-            this.context.appendChild(detail);
+            background.insertBefore(detail, this.context);
         }
-    }
-
-    hideSelectedPiece() {
-        this.context.removeChild(document.getElementById('detail'));
     }
 
     render() {
         this.pieces.forEach(piece => {
             const element = piece.render();
-            element.onclick = this.showSelectedPiece.bind(this, piece);
+            element.onclick = this.toggleSelectedPiece.bind(this, piece);
             this.context.appendChild(element);
         });
     }
