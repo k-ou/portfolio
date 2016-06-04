@@ -9,6 +9,6 @@ var pieces = fs.readdirSync(directory)
                   var title = _.substring(0, _.indexOf('.'));
                   return '\nnew Piece({\n\ttitle: \'' + title + '\',\n\t'
                   + 'description: \'a description for ' + title + '\',\n\t' 
-                  + 'photoURL: \'photos/' + _ + '\'\n})';
+                  + 'photoURL: \'' + _ + '\'\n})';
                }).join(',');
 console.log('[' + pieces + ']');

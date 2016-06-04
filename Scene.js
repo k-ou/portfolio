@@ -12,14 +12,15 @@ class Scene {
 
     toggleSelectedPiece(piece) {
         const selectedPiece = document.getElementById('detail');
-        const background = document.getElementById('background');
+        const background = document.getElementById('detailBox');
         if (selectedPiece) {
             background.removeChild(selectedPiece);
         } else {
             const detail = Detail.render(piece);
             detail.onclick = this.toggleSelectedPiece;
-            detail.style.height = window.innerHeight - this.context.offsetTop + 'px';
-            background.insertBefore(detail, this.context);
+            detail.style.height = window.innerHeight + 'px';
+            //            background.insertBefore(detail, this.context);
+            background.appendChild(detail)
         }
     }
 

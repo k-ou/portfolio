@@ -13,7 +13,7 @@ class Detail {
         detail.style.paddingBottom = '0px';
 
         const img = document.createElement('img');
-        img.setAttribute('src', piece.photoURL);
+        img.setAttribute('src', 'photos_detail/' + piece.photoURL);
         img.style.width = 'auto';
         img.style.display = 'block';
         img.style.maxHeight = '90%';

@@ -9,9 +9,10 @@ class Piece {
     }
 
     render() {
+        var directory = 'photos/';
         const template = `
             <h4>${this.title}</h4>
-            <img src=${this.photoURL} />
+            <img src=${directory + this.photoURL} />
         `;
         const piece = document.createElement('li');
         piece.className = 'post';
