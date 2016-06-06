@@ -25,34 +25,31 @@
     <div id="detailBox"></div>
     <div id="header" class="row">
         <a href="index.html">
-            <div id="name" class="col-md-5 col-xs-5">
-                <h1>Kelly Ou  </h1>
+            <div id="name" class="col-md-5">
+                <h1>Kelly Ou </h1>
             </div>
-            <div id="logo" class="col-md-2 col-xs-2">
+            <div id="logo" class="col-md-2">
                 <img id="logo" src="photos/logo_k.png" />
             </div>
-            <div id="title" class="col-md-5 col-xs-2">
+            <div id="title" class="col-md-5">
                 <h1> Portfolio</h1>
             </div>
         </a>
     </div>
     <div id="navbar" class="row">
-        <div class="col-md-4 col-sm-4 menuitem">
-            <h4 class="navtext" onclick="scene.render(TAG.TOP)">Home</h4>
+        <div class="col-md-4 .col-sm-4 menuitem">
+            <h4 class="navtext" onclick="foo()">Home</h4>
         </div>
-        <div class="col-md-4 col-sm-4 menuitem">
-            <h4 class="navtext" onclick="scene.render('about')">About</h4>
-        </div>
-        <div class="col-md-4 col-sm-4 menuitem">
-            <div class="dropdown" onclick="scene.dropdown()">
-                <h4 class="navtext dropdown">Portfolio</h4>
+        <a href="about.html">
+            <div class="col-md-4 .col-sm-4 menuitem">
+                <h4 class="navtext">About</h4>
             </div>
-            <div id="mydrop" class="dropdown-content">
-                <div onclick="scene.dropdown();scene.render()">All Work</div>
-                <div onclick="scene.dropdown();scene.render(TAG.ILLUSTRATOR)">Illustrator</div>
-                <div onclick="scene.dropdown();scene.render(TAG.TRADITIONAL)">Traditional</div>
+        </a>
+        <a href="index.html">
+            <div class="col-md-4 .col-sm-4 menuitem active">
+                <h4 class="navtext">Portfolio</h4>
             </div>
-        </div>
+        </a>
     </div>
     <div id="background">
         <ul id="content"></ul>

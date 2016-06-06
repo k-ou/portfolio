@@ -1,0 +1,251 @@
+:root {
+    --post-width: 200px;
+    --header-color: #578e98;
+    --nav-color: #3e575c;
+    --nav-hover: #304448;
+    --background-color: #EDF2E8;
+    --header-height: 200px;
+    --header-height-min: 100px;
+    --nav-height: 65px;
+    --footer-height: 100px;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    background-color: var(--background-color);
+    font-family: 'Dancing Script', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li.post img {
+    width: var(--post-width);
+    position: absolute;
+    border: 1px solid white;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+li.post img:hover {
+    opacity: 0.6;
+}
+
+h1 {
+    font-size: 64px;
+}
+
+.post {
+    position: relative;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+    text-align: center;
+    margin: 5px;
+    overflow: hidden;
+    z-index: 0;
+}
+
+#detail {
+    z-index: 2;
+}
+
+#header {
+    height: var(--header-height);
+    width: 80%;
+    color: white;
+    background-color: var(--header-color);
+    display: block;
+    z-index: 1;
+    margin-left: 10%;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+div#logo {
+    height: var(--header-height);
+}
+
+img#logo {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+}
+
+#name {
+    height: var(--header-height);
+    padding-right: 0px;
+    text-align: right;
+}
+
+#name h1 {
+    padding-right: 10px;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+#title {
+    height: var(--header-height);
+    padding-left: 0px;
+}
+
+#title h1 {
+    width: 100%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+
+/* Header resizing */
+
+
+/* Small devices (tablets, 768px and up) */
+
+@media only screen and (max-width: 768px) {
+    #header,
+    #name,
+    div#logo,
+    #title {
+        height: var(--header-height-min);
+    }
+    #name,
+    title {
+        padding-top: 25px;
+    }
+    h1 {
+        font-size: 32px;
+    }
+    img#logo {
+        height: 50px;
+        width: 50px;
+    }
+}
+
+#navbar {
+    height: var(--nav-height);
+    width: 80%;
+    color: white;
+    text-align: center;
+    font-family: 'Josefin Slab', sans-serif;
+    margin-left: 10%;
+}
+
+.navtext {
+    height: var(--nav-height);
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+.menuitem {
+    border: 2px white solid;
+    height: 65px;
+    background-color: var(--nav-color);
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 2;
+}
+
+.dropdown-content div {
+    display: block;
+    background-color: var(--nav-color);
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.dropdown-content div:hover {
+    background-color: var(--nav-hover);
+}
+
+.show {
+    display: block;
+}
+
+#content {
+    position: relative;
+    display: table;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-family: 'Josefin Slab', sans-serif;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#background {
+    position: relative;
+}
+
+#footer {
+    height: var(--footer-height);
+    width: 80%;
+    position: relative;
+    font-family: 'Josefin Slab', sans-serif;
+    color: white;
+    background-color: var(--header-color);
+    z-index: 1;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 100px;
+    bottom: 0px;
+    margin-left: 10%;
+    border-top: 3px solid white;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+}
+
+a:hover,
+a {
+    color: white;
+}
+
+.active,
+.menuitem:hover {
+    background-color: var(--nav-hover);
+}
+
+#introdiv {
+    background-color: white;
+    padding-top: 20px;
+}
+
+#intro {
+    padding-left: 10%;
+    padding-right: 10%;
+    display: relative;
+    text-align: left;
+    padding-top: 10px;
+}
