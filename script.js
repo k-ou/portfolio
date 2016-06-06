@@ -10,6 +10,8 @@ var scene = new Scene({
     context: context
 });
 
+scene.render(TAG.TOP);
+
 function removePieces() {
     const selectedPiece = document.getElementsByClassName('Piece');
     const content = document.getElementById('content');
