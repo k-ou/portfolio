@@ -258,7 +258,26 @@ class Piece {
                 title: 'Still_Lactaid',
                 description: 'a description for Still_Lactaid',
                 photoURL: 'Still_Lactaid.jpg',
-                tags: [TAG.TRADITIONAL, TAG.ILLUSTRATOR],
-            })];
+                tags: [TAG.TRADITIONAL],
+            }),
+            new Piece({
+                title: 'Orchid Ball Snapchat Filter',
+                description: 'Left: Illustrator design; Right: In use.',
+                photoURL: 'Orchid_Ball_Snapchat_Filter_Mock_01.png',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
+                title: 'Orchid Ball Snapchat Filter',
+                description: 'Left: Illustrator design; Right: In use.',
+                photoURL: 'Orchid_Ball_Snapchat_Filter_Mock_02.png',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
+                title: 'Orchid Ball Snapchat Filter',
+                description: 'Left: Illustrator design; Right: In use.',
+                photoURL: 'Orchid_Ball_Snapchat_Filter_Mock_03.png',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+        ];
     }
 }
