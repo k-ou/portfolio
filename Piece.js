@@ -46,13 +46,54 @@ class Piece {
     }
 
     // TODO: add comic book illustrator logos & heros
-    // TODO: add snapchat filters
 
     static getPieces() {
         return [
             new Piece({
+                title: 'Typography Poster',
+                description: 'My first time laying out typography like this; straight letterforms need some work.',
+                photoURL: 'Typography_01.jpg',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
+                title: 'LPB Monogram',
+                description: 'LPB monogram.',
+                photoURL: 'Logo_01.png',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
+                title: 'RJ Monogram',
+                description: 'Simplistic rendering of RJ letters.',
+                photoURL: 'Logo_02.png',
+                tags: [TAG.ILLUSTRATOR],
+            }),
+            new Piece({
+                title: 'SG Monogram',
+                description: 'SG monogram.',
+                photoURL: 'Logo_03.png',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
+                title: 'Sticker - Kelly',
+                description: 'Part of a series of personalized "stickers."',
+                photoURL: 'Stickers_01.jpg',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
+                title: 'Sticker - Gains',
+                description: 'Part of a series of personalized "stickers."',
+                photoURL: 'Stickers_02.jpg',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
+                title: 'Sticker - No',
+                description: 'Part of a series of personalized "stickers."',
+                photoURL: 'Stickers_03.jpg',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
                 title: 'Orchid Ball Snapchat Filter',
-                description: 'Left: Illustrator design; Right: In use.',
+                description: 'Snapchat filter designed for Phi Sigma Rho Orchid Ball. Left: Illustrator design; Right: In use.',
                 photoURL: 'Orchid_Ball_Snapchat_Filter_Mock_01.png',
                 tags: [TAG.ILLUSTRATOR, TAG.TOP],
             }),
@@ -91,6 +132,12 @@ class Piece {
                 description: 'Superhero logo designed for original character, Goat Man.',
                 photoURL: 'Superhero_Logo_02.png',
                 tags: [TAG.ILLUSTRATOR],
+            }),
+            new Piece({
+                title: 'Logo',
+                description: 'Logo designed for friends.',
+                photoURL: 'Lolly_Logo.png',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
             }),
             new Piece({
                 title: 'Charcoal_Still_02',

@@ -48,11 +48,11 @@ class Scene {
         var p1 = document.createElement('p');
         p1.className = 'about';
         p1.innerHTML = 'HEY THERE. I recently graduated from UCLA (Class of \'16, what up) with a degree in mathematics of computation. Bascially, this means that I learned a lot of math and learned a bit of code.';
-        p1.innerHTML = 'Hello! My name is Kelly Ou. I\'m an avid hiker, and I also love spending early mornings running and sunny afternoons with my nose buried in a book. But most importantly, I\'ve made a name for myself in my modest circle of family and friends for my penchant for making fun and personal illustrations (frequently as gifts for holidays or celebrations), and I\'ve come to see my artistic endeavors as something I\'d like to seriously pursue.';
+        p1.innerHTML = 'Hello! My name is Kelly Ou. I\'m an avid hiker, and I love spending early mornings running and sunny afternoons with my nose buried in a book. Within my circle of family and friends, I\'ve also made a name for myself for my penchant for making fun and personal illustrations, and I\'ve come to see my artistic endeavors as something I\'d like to seriously pursue.';
 
         var p2 = document.createElement('p');
         p2.className = 'about';
-        p2.innerHTML = 'I spent much of my childhood in Fishers, Indiana, but when I was 11, my family and I picked up our roots and moved to San Diego, CA, where I lived until starting school at UCLA. I graduated three months ago with a degree in Mathematics of Computation, and though I\'ve learned a lot of math these past four years, I\'ve also come to learn that it just isn\'t for me; as such, I\'ve spent much of these past few months catching up on activities I truly enjoy, the most important of which is making art. In particular, I\'ve been experimenting with life drawing, graphic design, superheroes, and Adobe Illustrator.';
+        p2.innerHTML = 'I spent much of my childhood in Fishers, Indiana, but when I was 11, my family and I picked up our roots and moved to San Diego, CA, where I lived until starting school at UCLA. I graduated four months ago with a degree in Mathematics of Computation, and though I\'ve learned a lot of math these past four years, I\'ve also come to learn that it just isn\'t for me; so, I\'ve spent much of these past few months catching up on activities I truly enjoy, the most important of which is making art. In particular, I\'ve been experimenting with life drawing, graphic design, superheroes, and Adobe Illustrator.';
 
         var p3 = document.createElement('p');
         p3.className = 'about';
