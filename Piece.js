@@ -92,6 +92,24 @@ class Piece {
                 tags: [TAG.ILLUSTRATOR, TAG.TOP],
             }),
             new Piece({
+                title: 'Sticker - ???',
+                description: 'Part of a series of personalized "stickers."',
+                photoURL: 'Stickers_04.jpg',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
+                title: 'Sticker - Sad',
+                description: 'Part of a series of personalized "stickers."',
+                photoURL: 'Stickers_05.jpg',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
+                title: 'Sticker - WAT',
+                description: 'Part of a series of personalized "stickers."',
+                photoURL: 'Stickers_06.jpg',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
                 title: 'Orchid Ball Snapchat Filter',
                 description: 'Snapchat filter designed for Phi Sigma Rho Orchid Ball. Left: Illustrator design; Right: In use.',
                 photoURL: 'Orchid_Ball_Snapchat_Filter_Mock_01.png',
