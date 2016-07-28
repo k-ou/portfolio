@@ -50,6 +50,30 @@ class Piece {
     static getPieces() {
         return [
             new Piece({
+                title: 'Composition Piece',
+                description: 'Experimentation with forms.',
+                photoURL: 'Composition_01.png',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
+                title: 'Phi Rho App Mock Up',
+                description: 'Selection of mockups of app for Phi Sigma Rho sorority, intended to improve communications and organization of files and information.',
+                photoURL: 'Phi_Rho_App_Mock.png',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
+                title: 'Swirly Hair 01',
+                description: 'Part 1',
+                photoURL: 'Swirly_Hair_01.png',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
+                title: 'Swirly Hair 02',
+                description: 'Part 2',
+                photoURL: 'Swirly_Hair_02.png',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
                 title: 'Typography Poster',
                 description: 'My first time laying out typography like this; straight letterforms need some work.',
                 photoURL: 'Typography_01.jpg',
