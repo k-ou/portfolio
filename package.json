@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "portfolio.html",
+  "dependencies": {
+    "babel-cli": "^6.11.4"
+  },
+  "devDependencies": {
+    "babel-preset-es2015": "^6.9.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lowellbander/portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lowellbander/portfolio/issues"
+  },
+  "homepage": "https://github.com/lowellbander/portfolio#readme"
+}
