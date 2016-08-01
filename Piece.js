@@ -74,6 +74,12 @@ class Piece {
                 tags: [TAG.ILLUSTRATOR, TAG.TOP],
             }),
             new Piece({
+                title: 'CarbCat',
+                description: 'A profile picture for CarbCat\'s Instagram account.',
+                photoURL: 'CarbCat_Profile.png',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
                 title: 'Typography Poster',
                 description: 'My first time laying out typography like this; straight letterforms need some work.',
                 photoURL: 'Typography_01.jpg',
