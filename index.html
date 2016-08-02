@@ -12,7 +12,8 @@
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
 <!-- Fonts from Google fonts -->
-<link href='https://fonts.googleapis.com/css?family=Dancing+Script|Ubuntu|Josefin+Slab' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Dancing+Script|Lato:400,300,100' rel='stylesheet' type='text/css'>
+<!--Other good fonts: Roboto, Ubuntu, Oswald, Raleway, Open Sans-->
 
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -38,14 +39,14 @@
     </div>
     <div id="navbar" class="row">
         <div class="col-md-4 col-xs-4 menuitem">
-            <h4 class="navtext" onclick="scene.render(TAG.TOP)">Home</h4>
+            <p class="navtext" onclick="scene.render(TAG.TOP)">Home</p>
         </div>
         <div class="col-md-4 col-xs-4 menuitem">
-            <h4 class="navtext" onclick="scene.render('about')">About</h4>
+            <p class="navtext" onclick="scene.render('about')">About</p>
         </div>
         <div class="col-md-4 col-xs-4 menuitem">
             <div class="dropdown" onclick="scene.dropdown()">
-                <h4 class="navtext dropdown">Portfolio</h4>
+                <p class="navtext dropdown">Portfolio</p>
             </div>
             <div id="mydrop" class="dropdown-content">
                 <div onclick="scene.dropdown();scene.render()">All Work</div>

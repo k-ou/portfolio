@@ -149,7 +149,10 @@ img#logo {
     width: 80%;
     color: white;
     text-align: center;
-    font-family: 'Josefin Slab', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.1;
     margin-left: 10%;
 }
 
@@ -211,7 +214,7 @@ div.dropdown {
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    font-family: 'Josefin Slab', sans-serif;
+    font-family: 'Lato', sans-serif;
     padding: 0px;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -225,7 +228,8 @@ div.dropdown {
     height: var(--footer-height);
     width: 80%;
     position: relative;
-    font-family: 'Josefin Slab', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
     color: white;
     background-color: var(--header-color);
     z-index: 1;
