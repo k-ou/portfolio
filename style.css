@@ -1,9 +1,12 @@
 :root {
     --post-width: 200px;
-    --header-color: #578e98;
-    --nav-color: #3e575c;
-    --nav-hover: #304448;
-    --background-color: #EDF2E8;
+    /*--header-color: #578e98;*/
+    /*--nav-color: #3e575c;*/
+    /*--nav-hover: #304448;*/
+    --header-color: #fafafa;
+    --nav-color: #fafafa;
+    --nav-hover: #fafafa;
+    --background-color: #fafafa;
     --header-height: 200px;
     --header-height-min: 100px;
     --nav-height: 65px;
@@ -25,7 +28,7 @@ ul {
 li.post img {
     width: var(--post-width);
     position: absolute;
-    border: 1px solid white;
+    /*    border: 1px solid white;*/
     left: 50%;
     top: 50%;
     -webkit-transform: translate(-50%, -50%);
@@ -46,7 +49,7 @@ h1 {
     display: inline-block;
     height: 200px;
     width: 200px;
-    border: 1px solid white;
+    /*    border: 1px solid white;*/
     text-align: center;
     margin: 5px;
     overflow: hidden;
@@ -65,8 +68,6 @@ h1 {
     display: block;
     z-index: 1;
     margin-left: 10%;
-    border-left: 3px solid white;
-    border-right: 3px solid white;
 }
 
 div#logo {
@@ -86,17 +87,20 @@ img#logo {
 
 #name {
     height: var(--header-height);
-    padding-right: 0px;
-    text-align: right;
+    text-align: center;
+    padding-top: 10px;
 }
 
 #name h1 {
-    padding-right: 10px;
+    height: var(--header-height);
+    padding-top: 50px;
     width: 100%;
     margin: 0;
-    position: absolute;
-    top: 50%;
-    transform: translate(0, -50%);
+}
+
+#header a:hover,
+#header a:link {
+    text-decoration: none;
 }
 
 #title {
@@ -122,15 +126,16 @@ img#logo {
     #header,
     #name,
     div#logo,
-    #title {
+    #title,
+    h1 {
         height: var(--header-height-min);
     }
     #name,
-    title {
-        padding-top: 25px;
+    #title {
+        padding-top: 5px;
     }
     h1 {
-        font-size: 32px;
+        font-size: 40px;
     }
     img#logo {
         height: 50px;
@@ -147,12 +152,11 @@ img#logo {
 #navbar {
     height: var(--nav-height);
     width: 80%;
-    color: white;
+    color: #3c3c3c;
     text-align: center;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    font-size: 18px;
-    line-height: 1.1;
+    font-size: 14px;
     margin-left: 10%;
 }
 
@@ -165,7 +169,7 @@ img#logo {
 }
 
 .menuitem {
-    border: 2px white solid;
+    /*    border: 2px white solid;*/
     height: var(--nav-height);
     background-color: var(--nav-color);
 }
@@ -182,7 +186,7 @@ div.dropdown {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #3c3c3c;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -192,12 +196,14 @@ div.dropdown {
 .dropdown-content div {
     display: block;
     background-color: var(--nav-color);
-    color: white;
+    color: #4d4d4d;
     padding-top: 12px;
     padding-bottom: 12px;
+    /*
     border-bottom: 1px solid white;
     border-left: 1px solid white;
     border-right: 1px solid white;
+*/
 }
 
 .dropdown-content div:hover {
@@ -222,6 +228,7 @@ div.dropdown {
 
 #background {
     position: relative;
+    padding-top: 40px;
 }
 
 #footer {
@@ -230,7 +237,7 @@ div.dropdown {
     position: relative;
     font-family: 'Lato', sans-serif;
     font-weight: 300;
-    color: white;
+    color: #3c3c3c;
     background-color: var(--header-color);
     z-index: 1;
     vertical-align: middle;
@@ -238,14 +245,16 @@ div.dropdown {
     line-height: 100px;
     bottom: 0px;
     margin-left: 10%;
+    /*
     border-top: 3px solid white;
     border-left: 3px solid white;
     border-right: 3px solid white;
+*/
 }
 
 a:hover,
 a {
-    color: white;
+    color: #3c3c3c;
 }
 
 .active,
@@ -254,9 +263,8 @@ a {
 }
 
 #introdiv {
-    background-color: white;
     padding: 20px;
-    width: 80%;
+    width: 100%;
     margin: 0 auto;
 }
 

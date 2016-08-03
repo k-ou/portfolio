@@ -26,27 +26,21 @@
     <div id="detailBox"></div>
     <div id="header" class="row">
         <a href="index.html">
-            <div id="name" class="col-md-5 col-xs-5">
-                <h1>Kelly Ou  </h1>
-            </div>
-            <div id="logo" class="col-md-2 col-xs-2">
-                <img id="logo" src="photos/logo_k.png" />
-            </div>
-            <div id="title" class="col-md-5 col-xs-2">
-                <h1> Portfolio</h1>
+            <div id="name">
+                <h1>Kelly Ou</h1>
             </div>
         </a>
     </div>
     <div id="navbar" class="row">
         <div class="col-md-4 col-xs-4 menuitem">
-            <p class="navtext" onclick="scene.render(TAG.TOP)">Home</p>
+            <p class="navtext" onclick="scene.render(TAG.TOP)">HOME</p>
         </div>
         <div class="col-md-4 col-xs-4 menuitem">
-            <p class="navtext" onclick="scene.render('about')">About</p>
+            <p class="navtext" onclick="scene.render('about')">ABOUT</p>
         </div>
         <div class="col-md-4 col-xs-4 menuitem">
             <div class="dropdown" onclick="scene.dropdown()">
-                <p class="navtext dropdown">Portfolio</p>
+                <p class="navtext dropdown">PORTFOLIO</p>
             </div>
             <div id="mydrop" class="dropdown-content">
                 <div onclick="scene.dropdown();scene.render()">All Work</div>
