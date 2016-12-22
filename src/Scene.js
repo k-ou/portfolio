@@ -52,11 +52,11 @@ class Scene {
 
         var p2 = document.createElement('p');
         p2.className = 'about';
-        p2.innerHTML = 'I spent much of my childhood in Fishers, Indiana, but when I was 11, my family and I picked up our roots and moved to San Diego, CA, where I lived until starting school at UCLA. I graduated four months ago with a degree in Mathematics of Computation, and though I\'ve learned a lot of math these past four years, I\'ve also come to learn that it just isn\'t for me; so, I\'ve spent much of these past few months catching up on activities I truly enjoy, the most important of which is making art. In particular, I\'ve been experimenting with life drawing, graphic design, superheroes, and Adobe Illustrator.';
+        p2.innerHTML = 'I spent much of my childhood in Fishers, Indiana, but when I was 11, my family and I picked up our roots and moved to San Diego, CA, where I lived until starting school at UCLA. I graduated with a Bachelor\'s degree in Mathematics of Computation and am now continuing my education in the graphic design program at Seattle Central Creative Academy.';
 
-        var p3 = document.createElement('p');
-        p3.className = 'about';
-        p3.innerHTML = 'This portfolio is an attempt to compile and display many of my past works, as well as my more recent projects; while the number of pieces I\'ve collected and uploaded thus far has been modest, I\'m excited to continue updating the site with my current projects.';
+        //var p3 = document.createElement('p');
+        //p3.className = 'about';
+        //p3.innerHTML = 'This portfolio is an attempt to compile and display many of my past works, as well as my more recent projects; while the number of pieces I\'ve collected and uploaded thus far has been modest, I\'m excited to continue updating the site with my current projects.';
 
         var carbcat = document.createElement('img');
         carbcat.src = 'web_photos/hiker.jpg';
@@ -68,7 +68,7 @@ class Scene {
         var td2 = document.createElement('td');
         td1.appendChild(p1);
         td1.appendChild(p2);
-        td1.appendChild(p3);
+        //td1.appendChild(p3);
         td2.appendChild(carbcat);
         tr.appendChild(td1);
         tr.appendChild(td2);

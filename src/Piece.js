@@ -50,6 +50,18 @@ class Piece {
     static getPieces() {
         return [
             new Piece({
+                title: 'NWIRP',
+                description: 'Done for a poster class but ultimately used by the organization I chose to promote, this poster spreads awareness about the Northwest Immigrant Rights Project\'s "Know Your Rights" workshops, held in Spanish to inform and educate immigrants of their rights in this country.',
+                photoURL: 'nwirp.png',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
+                title: 'Catfeine Cafe Logo and Icons',
+                description: 'Logo and icons (respectively indicating play area, bathrooms, and cashier) for concept cat cafe.',
+                photoURL: 'catfeine_cafe.png',
+                tags: [TAG.ILLUSTRATOR, TAG.TOP],
+            }),
+            new Piece({
                 title: 'Composition Piece',
                 description: 'Experimentation with forms.',
                 photoURL: 'Composition_01.png',
